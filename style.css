@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.mt64 {
+    margin-top: 64px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.width-55 {
+    width: 55%;
+}
+
+#main {
+   
+}
+
+#background {
+    width: 100%;
+    height: 78.8px;
+    position: fixed;
+    transition: box-shadow .15s linear;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 16px;
+    height: 78.8px;
+    position: fixed;
+    z-index: 5;
+    align-items: center;
+    width: 1240px;
+    margin-left: 48px;
+
+}
+
+.shadow {
+    box-shadow: 0 6px 14px #0000001a; 
+}
+
+
+#header #nav .menu-item {
+    display: inline;
+    list-style-type: none;
+}
+
+#nav li a {
+    margin-left: 48px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.cart {
+    display: inline-block;
+    margin-left: 58px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.menu-item-text:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    height: 368px;
+    width: 1224px;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+}
+
+.social {
+    margin-top: 84px;
+}
+
+.social-icon {
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.input-email {
+    width: 100%;
+    background-color: #e3e3e3;
+    border: none;
+    padding: 18px 15px;
+}
+
+.submit-btn {
+    padding: 15px 46px;
+    border: none;
+    background-color: rgb(226, 187, 192);
+    border: 1px solid rgb(226, 187, 192);
+    border-radius: 1px;
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(206, 131, 141);
+}
