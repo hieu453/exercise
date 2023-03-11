@@ -1,5 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+#header .top-bar .info>i {
+    color: white;
+}
+
 #header .info .detail-info {
-    /* display: block; */
+    color: white;
     margin-left: 10px;
     font-size: 12px;
+}
+
+#header .top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161C21;
+    height: 68px;
+    padding: 0 40px;
+    align-items: center;
+}
+
+#header .feature .feature-icon {
+    margin-left: 10px;
+    color: #B946AD;
+}
+
+#header .nav {
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    padding: 0 40px;
+}
+
+#header .nav .menu {
+    display: flex;
+    list-style-type: none;
+}
+
+#header .home-text h1 {
+    color: white;
+}
+
+#header .nav .menu a {
+    color: white;
+    text-decoration: none;
+    
 }
